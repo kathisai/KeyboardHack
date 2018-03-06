@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".SimpleIME"
+        <service
+            android:name=".AvantariIME"
             android:label="@string/simple_ime"
             android:permission="android.permission.BIND_INPUT_METHOD"
             >
